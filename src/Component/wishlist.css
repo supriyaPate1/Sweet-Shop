@@ -1,0 +1,119 @@
+.dispWish{
+    width: 100%;  
+}
+.WishlistDis{
+    width: 20%;
+    margin-top: 3%;
+    border-radius: 5px;
+    margin-left: 2%;
+    background-color: rgb(126, 165, 185);
+    padding-bottom: 1%;
+}
+.emptyWish{
+    width: 100%;
+    margin-top: 1%;
+    background-color: white;
+}
+.emptyWish button{
+    width: 10%;
+    padding: .5%;
+    float: right;
+    border: 1px solid red;
+    color: red;
+    font-size: 1vw;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.emptyWish button:hover{
+    background-color: red;
+    font-size: 1vw;
+    color: white;
+}
+.cardsDisp{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.DispImg{
+ width: 100%;
+ margin-top: 1%;
+ text-align: center;
+}
+.sweetDetail{
+    width: 100%;
+}
+.sweetDetail h4{
+ color: black;
+ text-align: center;
+}
+.sweetDetail p{
+    color: rgb(34, 32, 32);
+    font-size: 1vw;
+    text-align: center;
+}
+.btns{
+    width: 100%;
+    text-align: center;
+
+}
+.btns button{
+    width: 90%;
+    font-size: 1vw;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.DispImg img{
+    width: 90%;
+    height:23vh ;
+    border-radius: 5px;
+}
+.DispImg img:hover{
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.details{
+    margin-left: 2%;
+}
+.ShopNow{
+    width: 100%;  
+  }
+  .ShopNow img{
+    margin-top: 3%;
+     padding-left: 39%;
+     width: 22%;
+     filter:invert(var(--invert))
+  }
+  .ShopNow button{
+      bottom: 1vh;
+      text-align: center;
+      width: 15%;
+      padding: 1%;
+      border-radius: 6px;
+      color: black;
+      font-size: 1.2vw;
+      cursor: pointer;
+      border: 1px solid yellow;
+      background-color:yellow;
+  
+  }
+  
+  @media screen and (max-width:850px) {
+    .WishlistDis{
+     flex-direction: column;
+     place-items: center;
+    }
+  }
+  @media screen and (max-width:750px) {
+    .WishlistDis{
+     flex-direction: column;
+     place-items: center;
+    }
+  }

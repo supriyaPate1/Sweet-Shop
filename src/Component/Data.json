@@ -1,0 +1,21 @@
+[
+        {"id":101,"weight":"1kg","SweetName":"Besan Laddu","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6yaTMpniqb3glXDtdLugIvJvoQdr3Pu25w&usqp=CAU","price":530,"totalPrice":0,"quantity":0, "cartVal":0,"wishVal":0,"category":"Sugar"},
+
+        {"id":102,"weight":"500gm","SweetName":"Moong Dal Halwa","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsltq9ENmCs1S_58jpX5aT4rdWwOyaQHOIJA&usqp=CAU","price":340 ,"totalPrice":0 , "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugar"},
+
+        {"id":103,"weight":"250gm","SweetName":"Barfi","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQTFbbD-Y1GASS35K0DzR90iTyFC9N5NyaA&usqp=CAU","price":850 ,"totalPrice":0, "quantity":0, "cartVal":0,"wishVal":0,"category":"Sugar"},
+
+        {"id":104,"weight":"1kg","SweetName":"Motichoor Laddu","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTU8VgYuGp2E3W3ClBthOuFKCyUpT6WeEm_Q&usqp=CAU","price":300,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugar"},
+
+        {"id":105,"weight":"500gm","SweetName":"Gulab Jamun","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDQiW-E7Y93FLkgVL07wUjGKhk3esKyLHgQ&usqp=CAU","price":350 ,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugar"},
+
+        {"id":106,"weight":"250gm","SweetName":"Kheer","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzEApr6ij_LOY-VLMVlUIUjHBky_H_dPcENw&usqp=CAU","price":500 ,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugarfree"},
+
+        {"id":107,"weight":"500gm","SweetName":"Rasgulla","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4GIXooTZvmTu-8s9nOf4FBWG2SIQo7yspg&usqp=CAU","price":500 ,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugarfree"},
+
+        {"id":108,"weight":"1kg","SweetName":"Jalebi","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKBSVmQoW4Dob1bHa_r-_WdsN3yXAJh41_w&usqp=CAU","price":800 ,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugarfree"},
+
+        {"id":109,"weight":"1kg","SweetName":"Kaju Katli","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwpvrRuAsB4hLwZHs3bgU8oYc3TaP3UoPFKQ&usqp=CAU","price":1000 ,"totalPrice":0,  "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugarfree"},
+
+        {"id":110,"weight":"250gm","SweetName":"Ras Malai","imageCloth":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Je60zYYqy69dI5PI12Enf8VyfE7CfajZVw&usqp=CAU","price":340 ,"totalPrice":0 , "quantity":0,"cartVal":0,"wishVal":0,"category":"Sugar"}
+]

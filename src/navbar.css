@@ -1,0 +1,149 @@
+.Nav{
+    display: flex;
+    background-color: var(--nav);
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    color: var(--navTextCol);
+} 
+:root{
+  --nav:rgb(128, 177, 209);
+  --upperNav:rgb(113, 166, 187);
+  --cartBG:rgb(147, 177, 194);
+  --homeCart:rgb(231, 244, 250);
+  --aboutbg:rgb(86, 113, 136);
+  --loginBG:white;
+  --navTextCol:black;
+  --invert:0%;
+  --bgbtn:rgb(89, 121, 190);
+}
+.darkmode{
+background-color: black;
+color: white;
+--nav:black;
+--upperNav:black;
+--cartBG:black;
+--navTextCol:white;
+--homeCart:black;
+--loginBG:gray;
+--aboutbg:rgb(58, 56, 56);
+--bgbtn:black;
+--invert:100%;
+}
+.Nav a{
+    text-decoration: none;
+    color:var(--navTextCol);
+    font-size: 1vw;   
+}
+.Nav a:hover{  
+  color: rgb(28, 18, 170);
+}
+.HomePro{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.searchBar{
+  width: 30%;
+  align-items:center;
+  display:flex;
+  justify-content: space-around;
+}
+.cartWish{
+  width:20%;
+  align-items:center;
+  display:flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-content: space-around;
+}
+.otherlink2{
+  width: 60%;
+  align-items:center;
+  justify-content:space-around;
+  display:flex;
+  text-align:center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.otherlink2 select{
+  border: none;
+  text-decoration: none;
+  outline: none;
+  color:var(--navTextCol);
+  background-color: var(--nav);
+}
+.Sbar input{
+  font-size:1.1vw;
+  width: 70%;
+  border-radius:4px;
+  padding:1%;
+  border:1px solid rgb(18, 54, 133);
+}
+.Sbar button{
+  border:1px solid rgb(18, 54, 133);
+  background-color:rgb(18, 54, 133) ;
+  font-size:1.1vw;
+  border-radius:4px;
+  padding:1%;
+  color:white;
+}
+
+body{
+  background-color: rgb(171, 203, 212); 
+}
+.container{
+  margin-top: -10px;
+  margin-bottom: 2%;
+  margin-right:5% ;
+
+}
+#toggle{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5vh;
+  width: 6vw;
+  background-color: #15181f;
+  position: absolute;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.modes{
+  cursor: pointer;
+}
+#otherlink2{
+  display:none;
+}
+@media screen and (max-width:900px) {
+  .otherlink2{
+      display: none;
+  }
+  #otherlink2{
+      display: block;
+  }
+}
+.paperNav{
+  text-align: center;
+  margin-top: 5%;
+}
+.paperNav a{
+text-decoration: none;
+color: rgb(69, 6, 128);
+}
+.paperNav div{
+margin-top: 10%;
+}
+.helpline{
+  font-size: 1.2vw;
+}
+@media screen and (max-width:900px) {
+  .logohead{
+     flex-direction: column;
+  }
+}

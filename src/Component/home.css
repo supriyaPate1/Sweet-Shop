@@ -1,0 +1,211 @@
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.helpline{
+  width: 100%;
+  display: flex;
+  background-color: var(--upperNav);
+  place-items: center;
+}
+.logohead{
+  width:20%;
+  color: rgb(23, 23, 160);
+  font-style: italic;
+}
+.helpnum{
+  width: 80%;
+  padding-left: 40%;
+}
+.card{
+  display: flex;
+  width: 40%;
+  border: 1px solid white;
+  box-shadow: 4px 3px 3px rgb(87, 82, 82);
+  margin-bottom: 2%;
+  border-radius: 5px;
+  margin-top: 3%;
+  background-color:var(--homeCart);
+  font-size: 20px;
+}
+@media screen and (max-width:850px) {
+  .main{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:850px) {
+  .main{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:750px) {
+  .main{
+   flex-direction: column;
+   place-items: center;
+  }
+}
+@media screen and (max-width:900px) {
+  .card{
+      width: 60%;
+      place-items: center;
+  }
+}@media screen and (max-width:700px) {
+  .card{
+      width: 80%;
+     place-items: center;
+  }
+}@media screen and (max-width:500px) {
+  .card{
+      width: 100%;
+      place-items: center;
+  }
+}
+.textLogo{  
+  width: 60%;
+  margin-left: 2%; 
+}
+.imageDiv{
+  width: 40%;
+}
+.cartItem{
+  margin-left: 10px;
+  border: 1px solid black;
+}
+.display{
+  display: flex;
+}
+.imageFood{
+  width: 100%;
+  height: 35vh;
+}
+.textLogo button{
+  color: rgb(252, 248, 248);
+  background-color:var(--bgbtn);
+  border: 1px solid rgb(9, 60, 170) ;
+  width: 50%;
+  padding: 3%;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#contibtn{
+  color: white;
+  background-color: rgb(43, 146, 33);
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  border: 1px solid rgb(43, 146, 33);
+  border-radius: 4px;
+
+}
+#topbtn{
+  color:black;
+  font-size: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+#cartItems{
+  display: none;
+  background-color: rgb(175, 220, 233);
+}
+.dis{
+  padding-top: 5%;
+}
+.whatsappIcon{
+ color: rgb(46, 124, 46);
+ background-color: rgb(159, 230, 230);
+ padding: .5%;
+ font-size: larger;
+ border-radius: 50%;
+ cursor:pointer ;
+}
+.reviews{
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 7px;
+  background-color: #3c5f74;
+  color: white;
+  padding-top: 2%;
+}
+.ContentREV{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.ContentREV img{
+  width: 40%;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.ContentREV p{
+  font-size: 1vw;
+}
+.footer h5{
+  margin-left: 6%;
+}
+
+#otherlink2{
+  display:none;
+}
+@media screen and (max-width:900px) {
+  .otherlink2{
+      display: none;
+  }
+  #otherlink2{
+      display: block;
+  }
+
+}
+.paperNav{
+  text-align: center;
+  margin-top: 5%;
+}
+.paperNav a{
+text-decoration: none;
+color: rgb(69, 6, 128);
+}
+.paperNav div{
+margin-top: 10%;
+}
+.paperNav select{
+  margin-top: 10%;
+  color: white;
+  background-color: rgb(21, 106, 163);
+  border: 1px solid rgb(21, 106, 163);
+  padding: 1%;
+  border-radius: 3px;
+  }
+.shopMore{
+  text-align: center;
+}
+.moveTop{
+float: right;
+margin-right: .6%;
+bottom: 0;
+border-radius: 50%;
+padding: 1%;
+background-color: blanchedalmond;
+position: sticky;
+cursor: pointer;
+color: black;
+}
+.moveTop:hover{
+  color: red;
+}
+.wishbtn{
+  margin-right: 1%;
+  margin-top: 1%;
+}
+.wishbtn button{
+cursor: pointer;
+}
