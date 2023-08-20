@@ -1,7 +1,3 @@
-
-
-https://github.com/supriyaPate1/Sweet-Shop/assets/142013448/a03afdb2-10d0-4303-b6d5-d92d7141cb88
-
 This project depicts an e commerce sweet shop.
 This shop displays various kinds of sweets.
 Their is a facility of login and creation of account.
